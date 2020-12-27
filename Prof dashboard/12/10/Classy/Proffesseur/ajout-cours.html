@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/logo2.png">
+    <title>CLASSY</title>
+    <!-- Custom CSS -->
+    <link href="../dist/css/pages/file-upload.css" rel="stylesheet">
+    <link href="../../assets/node_modules/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />
+    <link href="../dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+
+<body class="skin-blue fixed-layout">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <body class="skin-blue fixed-layout">
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="loader__figure"></div>
+                <p class="loader__label">CLASSY</p>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Main wrapper - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <div id="main-wrapper">
+            <!-- ============================================================== -->
+            <!-- Topbar header - style you can find in pages.scss -->
+            <!-- ============================================================== -->
+            <header class="topbar">
+                <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="profileProf.html">
+                            <!-- Logo icon --><b>
+                                <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                                <!-- Dark Logo icon -->
+                                <img style="width:30px;" src="../../assets/images/logo.png"  alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <span class="hidden-xs"> <img style="width: 110px;margin-left: 20px !important;" src="../../assets/images/CLASSY-LOGO.png"/>
+                        </a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-collapse">
+                        <!-- ============================================================== -->
+                        <!-- toggle and nav items -->
+                        <!-- ============================================================== -->
+                        <ul class="navbar-nav mr-auto">
+                            <!-- This is  -->
+                            <li class="nav-item"> <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                            <li class="nav-item"> <a class="nav-link sidebartoggler d-none d-lg-block d-md-block waves-effect waves-dark" href="javascript:void(0)"><i class="icon-menu"></i></a> </li>
+                            <!-- ============================================================== -->
+                            <!-- Search -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item">
+                                <form class="app-search d-none d-md-block d-lg-block">
+                                    <input type="text" class="form-control" placeholder="Search & enter">
+                                </form>
+                            </li>
+                        </ul>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <ul class="navbar-nav my-lg-0">
+                            <!-- ============================================================== -->
+                            <!-- Comment -->
+                            <!-- ============================================================== -->
+                             <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-shopping-basket"></i>
+                                    <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown">
+                                    <ul>
+                                        <li>
+                                            <div class="drop-title">Notifications</div>
+                                        </li>
+                                        
+                                        <li>
+                                            <a class="nav-link text-center link" href="javascript:void(0);"> <strong>Voir tous vos notifications!</strong> <i class="fa fa-angle-right"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- End Comment -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- Messages -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="icon-note"></i>
+                                    <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                                </a>
+                                <div class="dropdown-menu mailbox dropdown-menu-right animated bounceInDown" aria-labelledby="2">
+                                    <ul>
+                                        <li>
+                                            <div class="drop-title">Vous avez 4 nouveaus messages!</div>
+                                        </li>
+                                        <li>
+                                            <div class="message-center">
+                                                <!-- Message -->
+                                                <a href="javascript:void(0)">
+                                                    <div class="user-img"> <img src="../../assets/images/users/1.png" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                                    <div class="mail-contnet">
+                                                        <h5>Nom Prénom</h5> <span class="mail-desc">Contacter l'administrateur pour corrigé ce problem!</span> <span class="time">9:30 AM</span> </div>
+                                                </a>
+                                                <!-- Message -->
+                                                <a href="javascript:void(0)">
+                                                    <div class="user-img"> <img src="../../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                                    <div class="mail-contnet">
+                                                        <h5>Nom Prénom </h5> <span class="mail-desc">J'ai ajouter un nouveau cours</span> <span class="time">9:10 AM</span> </div>
+                                                </a>
+                                                <!-- Message -->
+                                                <a href="javascript:void(0)">
+                                                    <div class="user-img"> <img src="../../assets/images/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
+                                                    <div class="mail-contnet">
+                                                        <h5>Nom Prénom </h5> <span class="mail-desc">J'ai envoyer la correction du TD!</span> <span class="time">9:08 AM</span> </div>
+                                                </a>
+                                                <!-- Message -->
+                                                <a href="javascript:void(0)">
+                                                    <div class="user-img"> <img src="../../assets/images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                                                    <div class="mail-contnet">
+                                                        <h5>Nom Prénom </h5> <span class="mail-desc">Contacter l'administrateur pour corrigé ce problem!</span> <span class="time">9:02 AM</span> </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link text-center link" href="javascript:void(0);"> <strong>Voir tous les messages</strong> <i class="fa fa-angle-right"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- End Messages -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- mega menu -->
+                            <!-- ============================================================== -->
+                         
+                            <!-- ============================================================== -->
+                            <!-- End mega menu -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- User Profile -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown u-pro">
+                                <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../../assets/images/users/1.png" alt="user" class=""> <span class="hidden-md-down">Zied &nbsp;<i class="fa fa-angle-down"></i></span> </a>
+                                <div class="dropdown-menu dropdown-menu-right animated flipInY">
+                                    <!-- text-->
+                                    <a href="profileProf.html" class="dropdown-item"><i class="ti-user"></i> Mon Profile</a>
+                                    <!-- text-->
+                                    <a href="javascript:void(0)" class="dropdown-item"><i class="ti-wallet"></i> Mon solde</a>
+                                    <!-- text-->
+                                    
+                                    <div class="dropdown-divider"></div>
+                                    <!-- text-->
+                                    <a href="pages-login.html" class="dropdown-item"><i class="fa fa-power-off"></i>Déconnexion</a>
+                                    <!-- text-->
+                                </div>
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- End User Profile -->
+                            <!-- ============================================================== -->
+                          
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!-- ============================================================== -->
+            <!-- End Topbar header -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Left Sidebar - style you can find in sidebar.scss  -->
+            <!-- ============================================================== -->
+            <aside class="left-sidebar">
+                <!-- Sidebar scroll-->
+                <div class="scroll-sidebar">
+                    <!-- Sidebar navigation-->
+                    <nav class="sidebar-nav">
+                        <ul id="sidebarnav">
+                            <li class="user-pro"> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><img src="../../assets/images/users/1.png" alt="user-img" class="img-circle"><span class="hide-menu">Prof. Zied</span></a>
+                                <ul aria-expanded="false" class="collapse">
+                                    <li> <a class="waves-effect waves-dark" href="profileProf.html"><i class="mdi mdi-account"></i><span class="hide-menu">Mon Profile</span></a> </li>
+                                    <li><a href="javascript:void(0)"><i class="ti-wallet"></i> Mon Solde</a></li>
+                                   
+                                    <a href="pages-login.html" class="dropdown-item"><i class="fa fa-power-off"></i> Déconnexion</a>
+                                </ul>
+                            </li>
+                            <li> <a class="waves-effect waves-dark" href="listEtudiant.html"><i class=" fas fa-users"></i><span class="hide-menu">Mes éléves</span></a>
+                        </li>
+                         <li> <a class="waves-effect waves-dark" href="detailCour.html"><i class="fas fa-book"></i><span class="hide-menu"> Mes Cours</span></a>
+                        </li>
+
+                        <li> <a class="waves-effect waves-dark" href="cours.html"><i class="mdi mdi-file-outline"></i><span class="hide-menu">Mes Exercices </span></a>
+                        </li>
+                         <li> <a class="waves-effect waves-dark" href="meeting.html"><i class="mdi mdi-camcorder"></i><span class="hide-menu"> Virtual Reality</span></a>
+                        </li>   
+                        
+                        <li> <a class="waves-effect waves-dark" href="calendrie.html"><i class="ti-calendar"></i><span class="hide-menu">Calendrié</span></a>
+                        </li>
+                      
+                          <li> <a class="waves-effect waves-dark" href="chat.html"><i class="far fa-comment"></i><span class="hide-menu">Messages</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="facture.html"><i class="far fa-money-bill-alt"></i><span class="hide-menu">Factures</span></a>
+                        </li>
+                          
+                        
+                        
+                        <li> <a class="waves-effect waves-dark" href="pages-login.html" aria-expanded="false"><i class="far fa-circle text-success"></i><span class="hide-menu">Déconnexion</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="pages-faq.html" aria-expanded="false"><i class="far fa-circle text-info"></i><span class="hide-menu">FAQs</span></a></li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+               
+                <!-- ============================================================== -->
+                <!-- End Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-uppercase">DETAILS DU COURS</h5>
+                                <form class="form-material m-t-40">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="col-md-12" for="example-text">Nom Cour</span>
+                                            </label>
+                                            <div class="col-md-12">
+                                                <input type="text" id="example-text" name="example-text" class="form-control" placeholder="Donner le nom du cour">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="col-md-12" for="bdate">Course Start Date</span>
+                                            </label>
+                                            <div class="col-md-12">
+                                                <input type="text" id="bdate" name="bdate" class="form-control mydatepicker" placeholder="entrer une date ici">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="col-md-12" for="example-text">Durée du Cour</span>
+                                            </label>
+                                            <div class="col-md-12">
+                                                <input type="text" id="example-text" name="example-text" class="form-control" placeholder="temp du cour">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="col-md-12" for="example-text">Prix du Cour</span>
+                                            </label>
+                                            <div class="col-md-12">
+                                                <input type="text" id="example-text" name="example-text" class="form-control" placeholder="donner le prix du cour">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="col-md-12" for="example-text">Proffesseur du cour</span>
+                                            </label>
+                                            <div class="col-md-12">
+                                                <input type="text" id="example-text" name="example-text" class="form-control" placeholder="nom du proffesseur">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="col-sm-12">Image du cour</label>
+                                            <div class="col-sm-12">
+                                                <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+                                                    <div class="form-control" data-trigger="fileinput"> <i class="glyphicon glyphicon-file fileinput-exists"></i> <span class="fileinput-filename"></span></div> <span class="input-group-addon btn btn-default btn-file"> <span class="fileinput-new">Choisir Fichier</span> <span class="fileinput-exists">Changer</span>
+                                                    <input type="file" name="..."> </span> <a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput">Supprimer</a> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="col-sm-12">Department</label>
+                                            <div class="col-sm-12">
+                                                <select class="form-control">
+                                                    <option>Selectionner un Department</option>
+                                                    <option>Science Informatique</option>
+                                                    <option>Mechanique</option>
+                                                    <option>Electrique</option>
+                                                    <option>Medicale</option>
+                                                    <option>Economique</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="col-md-12" for="position">Anné</span>
+                                            </label>
+                                            <div class="col-md-12">
+                                                <input type="text" id="position" name="position" class="form-control" placeholder="par exemple premiére année..">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="col-md-12">Description</label>
+                                            <div class="col-md-12">
+                                                <textarea class="form-control" rows="3"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-info waves-effect waves-light m-r-10">Confirmer</button>
+                                    <button type="submit" class="btn btn-dark waves-effect waves-light">Annuler</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <footer class="footer">
+            © 2020 CLASSY
+        </footer>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../../assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../../assets/node_modules/popper/popper.min.js"></script>
+    <script src="../../assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <!--Wave Effects -->
+    <script src="../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../dist/js/custom.min.js"></script>
+    <!-- Date Picker Plugin JavaScript -->
+    <script src="../../assets/node_modules/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript">
+    // Date Picker
+    jQuery('.mydatepicker').datepicker();
+    </script>
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/pages/jasny-bootstrap.js"></script>
+    <!-- This Page JS -->
+    <script src="../../assets/node_modules/inputmask/dist/min/jquery.inputmask.bundle.min.js"></script>
+    <script src="../dist/js/pages/mask.init.js"></script>
+</body>
+
+</html>
