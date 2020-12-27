@@ -1,7 +1,7 @@
 # Classy
 1) features underdeveloppe 
   : Augmented reality labes 
-  : back-end of the website
+  , back-end of the website
 2) features developped 
   : frontend of the web site 
 3) How to use ?
