@@ -1,9 +1,9 @@
 # Classy
 1) features underdeveloppe 
-  . Augmented reality labes 
-  . back-end of the website
+  : Augmented reality labes 
+  : back-end of the website
 2) features developped 
-  . frontend of the web site 
+  : frontend of the web site 
 3) How to use ?
   unzip the project 
   open tne html files to navigate through the website
